@@ -11,6 +11,7 @@ import com.mask.chapter1.sort.SelectSort.selectSort
  */
 object InsertSort {
   def main(args: Array[String]): Unit = {
+    println("hotfix")
     var random = new util.Random()
     val arr = new Array[Int](80000)
     for(i <- 0 until 80000){
